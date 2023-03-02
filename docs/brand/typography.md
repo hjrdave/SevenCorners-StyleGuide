@@ -4,3 +4,5 @@ slug: '/typography'
 ---
 
 # Typography
+
+foo
