@@ -8,8 +8,8 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 const config = {
   title: 'Seven Corners',
   tagline: 'One stop place for travel insurance.',
-  url: 'https://.github.io',
-  baseUrl: '/',
+  url: 'https://hjrdave.github.io',
+  baseUrl: '/sevencorners-styleguide',
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
   favicon: 'img/favicon.ico',
