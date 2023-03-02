@@ -5,4 +5,4 @@ slug: '/typography'
 
 # Typography
 
-foo
+foos
