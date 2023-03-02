@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunksevencorners_styleguide=self.webpackChunksevencorners_styleguide||[]).push([[3832],{3114:e=>{e.exports=JSON.parse('{"permalink":"/sevencorners-styleguide/blog/tags/hola","page":1,"postsPerPage":10,"totalPages":1,"totalCount":1,"blogDescription":"Blog","blogTitle":"Blog"}')}}]);

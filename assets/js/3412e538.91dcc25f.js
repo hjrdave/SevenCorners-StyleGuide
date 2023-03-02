@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunksevencorners_styleguide=self.webpackChunksevencorners_styleguide||[]).push([[3410],{7012:e=>{e.exports=JSON.parse('{"label":"docusaurus","permalink":"/sevencorners-styleguide/blog/tags/docusaurus","allTagsPath":"/sevencorners-styleguide/blog/tags","count":4}')}}]);
