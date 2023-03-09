@@ -1,0 +1,6 @@
+$columnSize: 150px;
+.compContainer {
+    display: grid;
+    gap: 1rem;
+    grid-template-columns: $columnSize $columnSize $columnSize $columnSize;
+}

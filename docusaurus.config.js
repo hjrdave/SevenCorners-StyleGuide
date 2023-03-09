@@ -28,7 +28,12 @@ const config = {
     defaultLocale: 'en',
     locales: ['en'],
   },
-
+  scripts: [
+    {
+      src: 'https://kit.fontawesome.com/bc8edc6f62.js',
+      async: true,
+    }
+  ],
   presets: [
     [
       'classic',
@@ -81,6 +86,7 @@ const config = {
           // },
         ],
       },
+
       footer: {
         style: 'dark',
         links: [

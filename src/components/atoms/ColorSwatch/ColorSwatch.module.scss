@@ -1,0 +1,45 @@
+$swatchWidth: 150px;
+$swatchHeight: 150px;
+.compContainer {
+    width: $swatchWidth;
+    height: $swatchHeight;
+    border-radius: 0.25rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0.25rem;
+    border: 1px solid #c0c1c2;
+    cursor: pointer;
+    .white {
+        color: white;
+    }
+    .dark {
+        color: black;
+    }
+    code {
+        color: white;
+        background-color: rgba(0, 0, 0, 0.3);
+        padding-left: 0.5rem;
+        padding-right: 0.5rem;
+    }
+    .copyIcon {
+        position: absolute;
+        width: $swatchWidth;
+        height: $swatchHeight;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        i {
+            font-size: 2rem;
+            opacity: 0;
+            padding-bottom: 1rem;
+            transition: opacity 0.2s;
+        }
+        &:hover {
+            i {
+                opacity: 0.5;
+            }
+        }
+    }
+}
