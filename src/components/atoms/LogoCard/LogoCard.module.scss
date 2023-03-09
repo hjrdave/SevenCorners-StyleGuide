@@ -1,0 +1,55 @@
+$width: 400px;
+.compContainer {
+    padding: 1rem;
+    border-radius: 0.25rem;
+    border: 1px solid #c0c1c2;
+    width: width;
+    cursor: pointer;
+    img {
+        width: 100%;
+        transition: opacity 0.2s;
+    }
+    .content {
+        display: inline-flex;
+        position: relative;
+        transition: opacity 0.2s;
+        .downloadIcon {
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            display: inline-flex;
+            justify-content: center;
+            align-items: center;
+
+            i {
+                font-size: 6rem;
+                opacity: 0;
+                transition: opacity 0.2s;
+            }
+        }
+        &:hover {
+            i {
+                opacity: 1;
+            }
+        }
+    }
+    &:hover {
+        img {
+            opacity: 0.2;
+        }
+    }
+}
+.bgWhite {
+    background-color: white;
+    i {
+        color: black;
+    }
+}
+.bgDark {
+    background-color: #333132;
+    i {
+        color: white;
+    }
+}
