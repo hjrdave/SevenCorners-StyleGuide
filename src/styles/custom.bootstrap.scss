@@ -1,0 +1,57 @@
+/**
+Custom Bootstrap styles
+This is used for styling brand component only. Not for the Docusaurus UI
+Never include the entire bootstrap library just the styles that are component related.
+*/
+
+//Custom included bootstrap
+@import "./variables.scss";
+@import "../../node_modules/bootstrap/scss/functions";
+@import "../../node_modules/bootstrap/scss/mixins";
+@import "../../node_modules/bootstrap/scss/variables";
+@import "../../node_modules/bootstrap/scss/bootstrap-utilities.scss";
+@import "../../node_modules/bootstrap/scss/buttons";
+
+//SC Brand Specific styles
+.btn {
+    font-family: "Montserrat", sans-serif;
+    box-shadow: $shadow-1;
+    border-radius: 0.5rem;
+    text-transform: uppercase;
+    padding: 0.7rem 1.26rem 0.6rem 1.26rem;
+    font-size: $font-size-base - 0.2rem;
+    background-image: var(--bs-gradient);
+}
+.btn-lg {
+    font-size: $font-size-base + 0.1rem;
+}
+.btn-sm {
+    font-size: $font-size-base - 0.3rem;
+}
+.btn-secondary {
+    text-shadow: 0px 0px 19px $dark;
+    color: white;
+}
+.btn-secondary.btn-lg {
+    color: white;
+}
+.btn-link {
+    background-image: none;
+    box-shadow: none;
+}
+.btn-success {
+    color: white;
+}
+.btn-success.btn-lg {
+    color: white;
+}
+.btn-danger {
+    color: white;
+}
+.btn-danger.btn-lg {
+    color: white;
+}
+.btn.dropdown-toggle {
+    background-image: none;
+    text-transform: none;
+}

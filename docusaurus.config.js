@@ -32,7 +32,14 @@ const config = {
     {
       src: 'https://kit.fontawesome.com/bc8edc6f62.js',
       async: true,
+    },
+    {
+      src: 'https://fonts.cdnfonts.com/css/montserrat',
+      async: true,
     }
+  ],
+  stylesheets: [
+    "https://fonts.cdnfonts.com/css/montserrat"
   ],
   presets: [
     [
@@ -56,7 +63,7 @@ const config = {
         //     'https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/',
         // },
         theme: {
-          customCss: require.resolve('./src/styles/custom.scss'),
+          customCss: require.resolve('./src/styles/styles.global.scss'),
         },
       }),
     ],
