@@ -3,13 +3,45 @@ sidebar_position: 4
 slug: '/cards'
 ---
 import ProductCard from '@site/src/components/atoms/ProductCard';
+import SimpleCard from '@site/src/components/atoms/SimpleCard';
 
 # Cards
 
+## Simple Card
+
+<div className={"d-flex pb-4"}>
+    <SimpleCard className={'m-2'}/>  
+    <SimpleCard altButton className={'m-2'}/>  
+</div>
+
+```html
+<div class="shadow card">
+    <div class="card-body">
+        <div class="py-3 col">
+            <div class="d-flex justify-content-between row">
+                <div class="col-sm-8">
+                    <div>
+                        <p class="text-primary fw-bold mb-0">Rental car care</p>
+                        <p>Coverage up to $35,000 for rental car damage and theft.</p>
+                        <button type="button" class="btn btn-link ps-0">
+                            <i class="fa-regular fa-circle-question pe-2 fs-6"></i>Tell me more
+                        </button>
+                    </div>
+                </div>
+                <div class="d-flex flex-column align-items-end col">
+                    <p class="h3 mb-0"><strong>$7.00</strong></p>
+                    <p><small>per day</small></p><button type="button" class="btn btn-outline-primary">Add</button>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+```
+
 ## Product Card
 <div className={"d-flex pb-4"}>
-    <ProductCard className={'p-2'}/>  
-    <ProductCard notRecommended className={'p-2'}/>  
+    <ProductCard className={'m-2'}/>  
+    <ProductCard notRecommended className={'m-2'}/>  
 </div>
 
 ```html
@@ -53,3 +85,4 @@ import ProductCard from '@site/src/components/atoms/ProductCard';
     </div>
 </div>
 ```
+

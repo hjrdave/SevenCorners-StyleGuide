@@ -9,7 +9,12 @@ Never include the entire bootstrap library just the styles that are component re
 @import "../../node_modules/bootstrap/scss/functions";
 @import "../../node_modules/bootstrap/scss/mixins";
 @import "../../node_modules/bootstrap/scss/variables";
+//@import "../../node_modules/bootstrap/scss/reboot";
 @import "../../node_modules/bootstrap/scss/bootstrap-utilities.scss";
+@import "../../node_modules/bootstrap/scss/helpers";
+@import "../../node_modules/bootstrap/scss/utilities";
+//@import "../../node_modules/bootstrap/scss/type";
+@import "../../node_modules/bootstrap/scss/grid";
 @import "../../node_modules/bootstrap/scss/buttons";
 @import "../../node_modules/bootstrap/scss/card";
 
@@ -22,6 +27,7 @@ Never include the entire bootstrap library just the styles that are component re
     padding: 0.7rem 1.26rem 0.6rem 1.26rem;
     font-size: $font-size-base - 0.2rem;
     background-image: var(--bs-gradient);
+    font-weight: 550;
 }
 .btn-lg {
     font-size: $font-size-base + 0.1rem;
