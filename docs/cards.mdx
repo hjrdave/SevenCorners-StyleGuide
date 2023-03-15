@@ -1,0 +1,55 @@
+---
+sidebar_position: 4
+slug: '/cards'
+---
+import ProductCard from '@site/src/components/atoms/ProductCard';
+
+# Cards
+
+## Product Card
+<div className={"d-flex pb-4"}>
+    <ProductCard className={'p-2'}/>  
+    <ProductCard notRecommended className={'p-2'}/>  
+</div>
+
+```html
+<div class="card shadow">
+    <div class="d-flex justify-content-end p-0 card-header">
+        <div class="d-flex position-relative">
+            <div class="Card_cardBadgeSlant__NCceX bg-primary bg-gradient"></div>
+            <div class="position-relative p-2 text-uppercase text-white bg-gradient bg-primary">
+                <strong>Recommended</strong>
+            </div>
+        </div>
+    </div>
+    <div class="card-body">
+        <div class="text-primary fs-2 card-title h5">RoundTrip Choice</div>
+        <div class="d-flex align-items-center pt-3">
+            <div class="pe-3 mb-2 text-muted card-subtitle h6">Starting at:</div>
+            <p class="fs-1 fw-bold">$216.00</p>
+        </div>
+        <p class="card-text">
+            <small class="text-primary"><strong>Includes:</strong></small>
+        </p>
+        <div class="d-flex">
+            <i class="fa-regular fa-square-check text-success pe-2 fs-5"></i>
+            <p><strong>150%</strong> trip interruption coverage</p>
+        </div>
+        <div class="d-flex">
+            <i class="fa-regular fa-square-check text-success pe-2 fs-5"></i>
+            <p>Medical expense coverage, including Covid treatment, up to <strong>$500,000</strong></p>
+        </div>
+        <div class="d-flex">
+            <i class="fa-regular fa-square-check text-success pe-2 fs-5"></i>
+            <p>Trip delay coverage up to <strong>$2,000</strong></p>
+        </div>
+        <div class="d-flex">
+            <i class="fa-regular fa-square-check text-success pe-2 fs-5"></i>
+            <p>Protection for lost belongings, including baggage, VISA, credit card, and more.</p>
+        </div>
+    </div>
+    <div class="d-flex justify-content-center pb-4 card-footer">
+        <button type="button" class="w-75 btn btn-secondary">Select</button>
+    </div>
+</div>
+```

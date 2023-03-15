@@ -11,6 +11,7 @@ Never include the entire bootstrap library just the styles that are component re
 @import "../../node_modules/bootstrap/scss/variables";
 @import "../../node_modules/bootstrap/scss/bootstrap-utilities.scss";
 @import "../../node_modules/bootstrap/scss/buttons";
+@import "../../node_modules/bootstrap/scss/card";
 
 //SC Brand Specific styles
 .btn {
@@ -54,4 +55,15 @@ Never include the entire bootstrap library just the styles that are component re
 .btn.dropdown-toggle {
     background-image: none;
     text-transform: none;
+}
+.card {
+    border-radius: 0px;
+}
+.card-header {
+    border-bottom: 0px;
+    background-color: white;
+}
+.card-footer {
+    border-top: 0px;
+    background-color: white;
 }
