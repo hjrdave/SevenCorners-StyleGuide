@@ -27,6 +27,10 @@ export default function ButtonList({ variant, className }: Props) {
                                 <Button variant="outline-light" className={"mx-1"}>Light</Button>
                                 <Button variant="outline-dark" className={"mx-1"}>Dark</Button>
                                 <Button variant="outline-primary" disabled className={"mx-1"}>Disabled</Button>
+                                <Button variant="outline-primary" className={"mx-1"}>
+                                    <i className="fa-regular fa-circle-question fs-6 pe-2"></i>
+                                    Button with Icon
+                                </Button>
                             </div>
                         </> :
 
@@ -44,6 +48,10 @@ export default function ButtonList({ variant, className }: Props) {
                                     <Button variant="light" size="lg" className={"mx-1"}>Light</Button>
                                     <Button variant="dark" size="lg" className={"mx-1"}>Dark</Button>
                                     <Button variant="primary" size="lg" disabled className={"mx-1"}>Disabled</Button>
+                                    <Button variant="primary" size="lg" className={"mx-1"}>
+                                        <i className="fa-regular fa-circle-question fs-6 pe-2"></i>
+                                        Button with Icon
+                                    </Button>
                                 </div>
 
                             </> :
@@ -61,6 +69,10 @@ export default function ButtonList({ variant, className }: Props) {
                                         <Button variant="light" size="sm" className={"mx-1"}>Light</Button>
                                         <Button variant="dark" size="sm" className={"mx-1"}>Dark</Button>
                                         <Button variant="primary" size="sm" disabled className={"mx-1"}>Disabled</Button>
+                                        <Button variant="primary" className={"mx-1"}>
+                                            <i className="fa-regular fa-circle-question fs-7 pe-2"></i>
+                                            Button with Icon
+                                        </Button>
                                     </div>
                                 </> :
                                 (variant === 'outline-large') ?
@@ -77,6 +89,10 @@ export default function ButtonList({ variant, className }: Props) {
                                             <Button variant="outline-light" size="lg" className={"mx-1"}>Light</Button>
                                             <Button variant="outline-dark" size="lg" className={"mx-1"}>Dark</Button>
                                             <Button variant="outline-primary" size="lg" disabled className={"mx-1"}>Disabled</Button>
+                                            <Button variant="outline-primary" size="lg" className={"mx-1"}>
+                                                <i className="fa-regular fa-circle-question fs-4 pe-2"></i>
+                                                Button with Icon
+                                            </Button>
                                         </div>
 
                                     </> :
@@ -94,6 +110,10 @@ export default function ButtonList({ variant, className }: Props) {
                                                 <Button variant="outline-light" size="sm" className={"mx-1"}>Light</Button>
                                                 <Button variant="outline-dark" size="sm" className={"mx-1"}>Dark</Button>
                                                 <Button variant="outline-primary" size="sm" disabled className={"mx-1"}>Disabled</Button>
+                                                <Button variant="outline-primary" size={"sm"} className={"mx-1"}>
+                                                    <i className="fa-regular fa-circle-question fs-7 pe-2"></i>
+                                                    Button with Icon
+                                                </Button>
                                             </div>
                                         </> :
 
@@ -111,6 +131,10 @@ export default function ButtonList({ variant, className }: Props) {
                                                 <Button variant="dark" className={"mx-1"}>Dark</Button>
                                                 <Button variant="link" className={"mx-1"}>Link</Button>
                                                 <Button variant="primary" disabled className={"mx-1"}>Disabled</Button>
+                                                <Button variant="primary" className={"mx-1"}>
+                                                    <i className="fa-regular fa-circle-question fs-6 pe-2"></i>
+                                                    Button with Icon
+                                                </Button>
                                             </div>
                                         </>
 
