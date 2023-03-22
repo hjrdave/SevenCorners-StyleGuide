@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunksevencorners_styleguide=self.webpackChunksevencorners_styleguide||[]).push([[198],{9705:e=>{e.exports=JSON.parse('{"permalink":"/SevenCorners.StyleGuide/blog/tags/docusaurus","page":1,"postsPerPage":10,"totalPages":1,"totalCount":4,"blogDescription":"Blog","blogTitle":"Blog"}')}}]);

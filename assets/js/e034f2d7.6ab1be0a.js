@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunksevencorners_styleguide=self.webpackChunksevencorners_styleguide||[]).push([[6619],{1480:e=>{e.exports=JSON.parse('{"permalink":"/sevencorners-styleguide/blog/tags/facebook","page":1,"postsPerPage":10,"totalPages":1,"totalCount":1,"blogDescription":"Blog","blogTitle":"Blog"}')}}]);

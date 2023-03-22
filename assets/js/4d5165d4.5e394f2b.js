@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunksevencorners_styleguide=self.webpackChunksevencorners_styleguide||[]).push([[3993],{8266:e=>{e.exports=JSON.parse('{"label":"hello","permalink":"/SevenCorners.StyleGuide/blog/tags/hello","allTagsPath":"/SevenCorners.StyleGuide/blog/tags","count":2}')}}]);
