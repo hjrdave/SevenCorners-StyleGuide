@@ -9,7 +9,7 @@ const config = {
   title: 'Seven Corners',
   tagline: 'One stop place for travel insurance.',
   url: 'https://hjrdave.github.io',
-  baseUrl: '/sevencorners-styleguide',
+  baseUrl: '/SevenCorners.StyleGuide',
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
   favicon: 'img/favicon.ico',
